@@ -12,14 +12,14 @@ from oauth2client.service_account import ServiceAccountCredentials
 DISCORD_BOT_TOKEN = "INSERT YOUR DISCORD BOT TOKEN HERE"
 
 # Google Sheets Setup
-SHEET_NAME = "Discord Bot Test" //INSERT YOUR SHEET NAME HERE
+SHEET_NAME = "Discord Bot Test" #INSERT YOUR SHEET NAME HERE
 START_ROW = 100  # Starting row for output
 COL_START = 1  # Start column for the first entry
 COL_SPACING = 1  # Space between entries
 
 # Google API Authentication
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name("INSERT_YOUR_API_KEY_HERE.json", scope) //ADD YOUR API .JSON FILE HERE
+creds = ServiceAccountCredentials.from_json_keyfile_name("INSERT_YOUR_API_KEY_HERE.json", scope) #ADD YOUR API .JSON FILE HERE
 client_gs = gspread.authorize(creds)
 sheet = client_gs.open(SHEET_NAME).sheet1
 
