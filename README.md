@@ -8,6 +8,9 @@ Install Dependencies (Roughly from what I can remember) May require --break-syst
 
 [pip install opencv-python-headless.txt](https://github.com/user-attachments/files/19413387/pip.install.opencv-python-headless.txt)
 
+WIP will dockerize soon
+
 ![image](https://github.com/user-attachments/assets/c1f592bd-466e-49ac-b180-fde3d15f6d75)
 ![image](https://github.com/user-attachments/assets/0fb47405-bed7-4764-97c2-b96a01bc7b91)
 ![image](https://github.com/user-attachments/assets/03942ad8-b8e7-4926-96a7-f198a85464b7)
+
